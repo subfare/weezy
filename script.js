@@ -8,6 +8,7 @@ const songs = [
 ];
 
 const tableBody = document.querySelector("#song-table tbody");
+const sortOptions = document.getElementById("sort-options");
 
 function renderSongs(songList) {
   tableBody.innerHTML = ""; // Clear existing rows
@@ -23,27 +24,29 @@ function renderSongs(songList) {
   });
 }
 
+function sortSongs(criteria) {
+  let sortedSongs = [...songs];
+  if (criteria === "alphabetical") {
+    sortedSongs.sort((a, b) => a.name.localeCompare(b.name));
+  } else if (criteria === "high") {
+    sortedSongs.sort((a, b) => b.rating - a.rating);
+  } else if (criteria === "low") {
+    sortedSongs.sort((a, b) => a.rating - b.rating);
+  }
+  renderSongs(sortedSongs);
+}
+
+// Event listeners
+sortOptions.addEventListener("change", function () {
+  sortSongs(this.value);
+});
+
 document.getElementById("search-bar").addEventListener("input", function () {
   const query = this.value.toLowerCase();
   const filteredSongs = songs.filter(song =>
     song.name.toLowerCase().includes(query)
   );
   renderSongs(filteredSongs);
-});
-
-document.getElementById("sort-alpha").addEventListener("click", function () {
-  const sortedSongs = [...songs].sort((a, b) => a.name.localeCompare(b.name));
-  renderSongs(sortedSongs);
-});
-
-document.getElementById("sort-high").addEventListener("click", function () {
-  const sortedSongs = [...songs].sort((a, b) => b.rating - a.rating);
-  renderSongs(sortedSongs);
-});
-
-document.getElementById("sort-low").addEventListener("click", function () {
-  const sortedSongs = [...songs].sort((a, b) => a.rating - b.rating);
-  renderSongs(sortedSongs);
 });
 
 // Initial render
