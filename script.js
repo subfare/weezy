@@ -10,9 +10,9 @@ document.addEventListener("DOMContentLoaded", function () {
     { cover_image: "https://www.weezerpedia.com/w/images/thumb/8/8d/Weezer_OK_Human_album.jpg/300px-Weezer_OK_Human_album.jpg", name: "All My Favorite Songs", rating: 6 },
     { cover_image: "https://www.weezerpedia.com/w/images/thumb/c/c6/Weezer_Hurley.jpg/300px-Weezer_Hurley.jpg", name: "All My Friends Are Insects", rating: 6.6 },
     { cover_image: "https://www.weezerpedia.com/w/images/thumb/1/18/Weezer_Van_Weezer.png/300px-Weezer_Van_Weezer.png", name: "All the Good Ones", rating: 7.8 },
-    { cover_image: "IMAGEGOESHERE", name: "COMING SOON", rating: 0.0 },
-    { cover_image: "IMAGEGOESHERE", name: "COMING SOON", rating: 0.0 },
-    { cover_image: "IMAGEGOESHERE", name: "COMING SOON", rating: 0.0 },
+    { cover_image: "https://www.weezerpedia.com/w/images/thumb/7/77/Szns_spring_art.jpg/300px-Szns_spring_art.jpg", name: "All This Love", rating: 6 },
+    { cover_image: "https://www.weezerpedia.com/w/images/thumb/8/8d/Weezer_OK_Human_album.jpg/300px-Weezer_OK_Human_album.jpg", name: "Aloo Gobi", rating: 8.1 },
+    { cover_image: "https://preview.redd.it/67lv114wf3161.png?auto=webp&s=f3221f12197184be0cab3f2a4ef63c3f76394f9e", name: "Al's Bar", rating: 3.8 },
     { cover_image: "IMAGEGOESHERE", name: "COMING SOON", rating: 0.0 },
   ];
 
