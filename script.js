@@ -6,14 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { cover_image: "https://www.weezerpedia.com/w/images/thumb/7/77/Szns_spring_art.jpg/300px-Szns_spring_art.jpg", name: "Across The Meadow", rating: 6.8 },
     { cover_image: "https://www.weezerpedia.com/w/images/thumb/f/ff/Weezer_Pinkerton.jpg/300px-Weezer_Pinkerton.jpg", name: "Across The Sea", rating: 8.7 },
     { cover_image: "https://preview.redd.it/5mknzp1odv061.png?width=640&crop=smart&auto=webp&s=25a726701911bb66de35889a5644e222283d9122", name: "Ain't Got Much Time", rating: 5.5 },
-    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
-    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
-    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
-    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
-    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
-    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
-    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
-    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
+    { cover_image: "https://www.weezerpedia.com/w/images/thumb/5/56/Weezer_EWBAITE.jpg/300px-Weezer_EWBAITE.jpg", name: "Ain't Got Nobody", rating: 7.4 },
   ];
 
   const tableBody = document.querySelector("#song-table tbody");
