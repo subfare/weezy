@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
   const songs = [
-    { cover_image: "cover1.jpg", name: "1 More Hit", rating: 4.4 },
-    { cover_image: "cover2.jpg", name: "367", rating: 6.4 },
-    { cover_image: "cover3.jpg", name: "Acapulco", rating: 3.4 },
-    { cover_image: "cover4.jpg", name: "Across The Meadow", rating: 6.8 },
-    { cover_image: "cover5.jpg", name: "Across The Sea", rating: 8.7 },
-    { cover_image: "cover6.jpg", name: "Ain't Got Much Time", rating: 5.5 },
+    { cover_image: "https://christer.neocities.org/gave16.png", name: "1 More Hit", rating: 4.4 },
+    { cover_image: "https://christer.neocities.org/gave16.png", name: "367", rating: 6.4 },
+    { cover_image: "https://christer.neocities.org/gave16.png", name: "Acapulco", rating: 3.4 },
+    { cover_image: "https://christer.neocities.org/gave16.png", name: "Across The Meadow", rating: 6.8 },
+    { cover_image: "https://christer.neocities.org/gave16.png", name: "Across The Sea", rating: 8.7 },
+    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
   ];
 
   const tableBody = document.querySelector("#song-table tbody");
