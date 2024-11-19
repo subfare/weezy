@@ -1,11 +1,11 @@
 const songs = [
   {
-    cover_image: "cover1.jpg",
+    cover_image: "https://christer.neocities.org/gave16.png",
     name: "1 More Hit",
     rating: "4.4/10",
   },
   {
-    cover_image: "cover2.jpg",
+    cover_image: "https://christer.neocities.org/gave16.png",
     name: "367",
     rating: "6.4/10",
   },
