@@ -8,12 +8,16 @@
 </head>
 <body>
   <div class="container">
-    <!-- Add the banner image -->
+    <!-- Add the centered banner image -->
     <img src="https://christer.neocities.org/gave16.png" alt="Weezer Banner" class="banner">
 
     <header>
       <input type="text" id="search-bar" placeholder="Search for song">
-      <button id="sort-button">Alphabetical</button>
+      <div class="buttons">
+        <button id="sort-alpha">Alphabetical</button>
+        <button id="sort-high">High to Low</button>
+        <button id="sort-low">Low to High</button>
+      </div>
     </header>
     <main>
       <table id="song-table">
@@ -33,3 +37,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
