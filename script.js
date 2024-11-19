@@ -29,6 +29,26 @@ const songs = [
     name: "Ain't Got Much Time",
     rating: "5.5/10",
   },
+   {
+    cover_image: "cover6.jpg",
+    name: "Ain't Got Much Time",
+    rating: "5.5/10",
+  },
+   {
+    cover_image: "cover6.jpg",
+    name: "Ain't Got Much Time",
+    rating: "5.5/10",
+  },
+   {
+    cover_image: "cover6.jpg",
+    name: "Ain't Got Much Time",
+    rating: "5.5/10",
+  },
+   {
+    cover_image: "cover6.jpg",
+    name: "Ain't Got Much Time",
+    rating: "5.5/10",
+  },
 ];
 
 const tableBody = document.querySelector("#song-table tbody");
