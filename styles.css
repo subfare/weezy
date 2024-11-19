@@ -15,11 +15,11 @@ body {
 
 /* Updated banner styling */
 .banner {
-  max-width: 100%; /* Make the banner responsive */
+  width: 100%; /* Stretch to full container width */
+  max-width: none; /* Remove any limitations */
   height: auto; /* Maintain aspect ratio */
   margin: 0 auto 20px auto; /* Center the image */
   display: block; /* Block element for proper spacing */
-  border-radius: 100px; /* Optional rounded edges */
 }
 
 header {
