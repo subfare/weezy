@@ -19,7 +19,7 @@ body {
   height: auto; /* Maintain aspect ratio */
   margin: 0 auto 20px auto; /* Center the image */
   display: block; /* Block element for proper spacing */
-  border-radius: 10px; /* Optional rounded edges */
+  border-radius: 100px; /* Optional rounded edges */
 }
 
 header {
