@@ -1,10 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
   const songs = [
-    { cover_image: "https://christer.neocities.org/gave16.png", name: "1 More Hit", rating: 4.4 },
-    { cover_image: "https://christer.neocities.org/gave16.png", name: "367", rating: 6.4 },
-    { cover_image: "https://christer.neocities.org/gave16.png", name: "Acapulco", rating: 3.4 },
-    { cover_image: "https://christer.neocities.org/gave16.png", name: "Across The Meadow", rating: 6.8 },
-    { cover_image: "https://christer.neocities.org/gave16.png", name: "Across The Sea", rating: 8.7 },
+    { cover_image: "https://www.weezerpedia.com/w/images/thumb/1/18/Weezer_Van_Weezer.png/300px-Weezer_Van_Weezer.png", name: "1 More Hit", rating: 4.4 },
+    { cover_image: "https://preview.redd.it/5mknzp1odv061.png?width=640&crop=smart&auto=webp&s=25a726701911bb66de35889a5644e222283d9122", name: "367", rating: 6.4 },
+    { cover_image: "https://lastfm.freetls.fastly.net/i/u/500x500/306f2f58ae40968629921bf42809c4c3.jpg", name: "Acapulco", rating: 3.4 },
+    { cover_image: "https://www.weezerpedia.com/w/images/thumb/7/77/Szns_spring_art.jpg/300px-Szns_spring_art.jpg", name: "Across The Meadow", rating: 6.8 },
+    { cover_image: "https://www.weezerpedia.com/w/images/thumb/f/ff/Weezer_Pinkerton.jpg/300px-Weezer_Pinkerton.jpg", name: "Across The Sea", rating: 8.7 },
+    { cover_image: "https://preview.redd.it/5mknzp1odv061.png?width=640&crop=smart&auto=webp&s=25a726701911bb66de35889a5644e222283d9122", name: "Ain't Got Much Time", rating: 5.5 },
+    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
+    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
+    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
+    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
+    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
+    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
+    { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
     { cover_image: "https://christer.neocities.org/gave16.png", name: "Ain't Got Much Time", rating: 5.5 },
   ];
 
