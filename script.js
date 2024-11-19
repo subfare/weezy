@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { cover_image: "https://www.weezerpedia.com/w/images/thumb/f/ff/Weezer_Pinkerton.jpg/300px-Weezer_Pinkerton.jpg", name: "Across The Sea", rating: 8.7 },
     { cover_image: "https://preview.redd.it/5mknzp1odv061.png?width=640&crop=smart&auto=webp&s=25a726701911bb66de35889a5644e222283d9122", name: "Ain't Got Much Time", rating: 5.5 },
     { cover_image: "https://www.weezerpedia.com/w/images/thumb/5/56/Weezer_EWBAITE.jpg/300px-Weezer_EWBAITE.jpg", name: "Ain't Got Nobody", rating: 7.4 },
-    { cover_image: "All My Favorite Songs", name: "https://www.weezerpedia.com/w/images/thumb/8/8d/Weezer_OK_Human_album.jpg/300px-Weezer_OK_Human_album.jpg", rating: 6 },
+    { cover_image: "https://www.weezerpedia.com/w/images/thumb/8/8d/Weezer_OK_Human_album.jpg/300px-Weezer_OK_Human_album.jpg", name: "All My Favorite Songs", rating: 6 },
     { cover_image: "IMAGEGOESHERE", name: "COMING SOON", rating: 0.0 },
     { cover_image: "IMAGEGOESHERE", name: "COMING SOON", rating: 0.0 },
     { cover_image: "IMAGEGOESHERE", name: "COMING SOON", rating: 0.0 },
