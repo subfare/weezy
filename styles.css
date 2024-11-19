@@ -13,13 +13,13 @@ body {
   text-align: center;
 }
 
-/* Centered banner styling */
+/* Updated banner styling */
 .banner {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto 20px auto;
-  display: block;
-  border-radius: 10px;
+  max-width: 100%; /* Make the banner responsive */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto 20px auto; /* Center the image */
+  display: block; /* Block element for proper spacing */
+  border-radius: 10px; /* Optional rounded edges */
 }
 
 header {
