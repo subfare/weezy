@@ -13,6 +13,15 @@ document.addEventListener("DOMContentLoaded", function () {
     { cover_image: "https://www.weezerpedia.com/w/images/thumb/7/77/Szns_spring_art.jpg/300px-Szns_spring_art.jpg", name: "All This Love", rating: 6 },
     { cover_image: "https://www.weezerpedia.com/w/images/thumb/8/8d/Weezer_OK_Human_album.jpg/300px-Weezer_OK_Human_album.jpg", name: "Aloo Gobi", rating: 8.1 },
     { cover_image: "https://preview.redd.it/67lv114wf3161.png?auto=webp&s=f3221f12197184be0cab3f2a4ef63c3f76394f9e", name: "Al's Bar", rating: 3.8 },
+    { cover_image: "https://www.weezerpedia.com/w/images/thumb/b/be/Weezer_Island_in_the_Sun_cover_CD.jpg/300px-Weezer_Island_in_the_Sun_cover_CD.jpg", name: "Always", rating: 5.5 },
+    { cover_image: "https://www.weezerpedia.com/w/images/thumb/f/f3/Weezer_Maladroit.jpg/300px-Weezer_Maladroit.jpg", name: "American Gigolo", rating: 4.3 },
+    { cover_image: "https://www.weezerpedia.com/w/images/thumb/a/a7/Weezer_The_Red_Album.jpg/300px-Weezer_The_Red_Album.jpg", name: "The Angel and the One", rating: 9.3 },
+    { cover_image: "https://www.weezerpedia.com/w/images/thumb/5/56/Weezer_EWBAITE.jpg/300px-Weezer_EWBAITE.jpg", name: "Anonymous", rating: 8.7 },
+    { cover_image: "https://www.weezerpedia.com/w/images/thumb/2/22/Theyeastmaster-cover.jpeg/300px-Theyeastmaster-cover.jpeg", name: "The Answer Man", rating: 5.9 },
+    { cover_image: "https://www.weezerpedia.com/w/images/thumb/5/57/Weezer_Pacific_Daydream.png/300px-Weezer_Pacific_Daydream.png", name: "Any Friend of Diane's", rating: 7.2 },
+    { cover_image: "https://www.weezerpedia.com/w/images/thumb/a/a7/Weezer_The_Red_Album.jpg/300px-Weezer_The_Red_Album.jpg", name: "Automatic", rating: 6.7 },
+    { cover_image: "https://www.weezerpedia.com/w/images/thumb/9/9b/Death_to_false_metal.png/300px-Death_to_false_metal.png", name: "Autopilot", rating: 5.2 },
+    { cover_image: "https://preview.redd.it/rb5hzewurxz61.png?auto=webp&s=41698e1b94f48da8d0b1bc5df410949af2bcb516", name: "Average Person", rating: 5.3 },
     { cover_image: "IMAGEGOESHERE", name: "COMING SOON", rating: 0.0 },
   ];
 
@@ -40,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (criteria === "high") {
       sortedSongs.sort((a, b) => b.rating - a.rating);
     } else if (criteria === "low") {
-      sortedSongs.sort((a, b) => a.rating - b.rating);
+      sortedSongs.sort((a, b) => a.rating - b.ratings);
     }
     renderSongs(sortedSongs);
   }
